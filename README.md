@@ -5,6 +5,9 @@ https://tldr.sh/
 
 2) Practice in vimtutor
 
-3) 
+3) Linux boot process:
+https://www.thegeekstuff.com/2011/02/linux-boot-process
+
+
 
 
