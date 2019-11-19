@@ -9,5 +9,7 @@ https://tldr.sh/
 https://www.thegeekstuff.com/2011/02/linux-boot-process
 
 
+4) SSH Tunnel- Port Forwarding
 
+5) NGINX Reverrse Proxy Configuration
 
