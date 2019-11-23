@@ -9,7 +9,23 @@ https://tldr.sh/
 https://www.thegeekstuff.com/2011/02/linux-boot-process
 
 
-4) SSH Tunnel- Port Forwarding
+4) SSH-Agent
 
-5) NGINX Reverrse Proxy Configuration
+ssh-add -l
+ssh-agent > ~/.ssh/ssh-agent
+. ~/.ssh/ssh-agent
+ssh-add <private-key>
+ssh-add -l
+md5sum <private key/public key>
+
+
+
+5) SSH Tunnel- Port Forwarding
+
+6) NGINX Reverrse Proxy Configuration
+
+7) Becoming a Linux Power user
+
+
+
 
