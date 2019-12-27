@@ -1,0 +1,13 @@
+sudo vim /etc/fstab
+
+/dev/sdb1 .   /mnt/Photos .   ext2 .  defaults,usrquota
+
+
+reboot
+
+
+sudo apt-get install quota
+
+cd /mnt/Photos
+
+sudo quotacheck -avugc
