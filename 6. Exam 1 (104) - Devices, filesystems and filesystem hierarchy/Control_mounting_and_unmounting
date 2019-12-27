@@ -8,7 +8,27 @@ cat /proc/self/mounts
 
 
 
+AUTOMATE MOUNTING
+
+sudo vim /etc/fstab       //this file loads all the mount points automatically
+
+/dev/sdb1 ext2 noauto 0 0    //add this to fstab file
+
+sudo mount -a
+
+df                          //no changes found
+
+/dev/sdb1 ext2 defaults 0 0
+
+sudo mount -a
+
+df                         //can see the new mount
+
+fuser /mnt/Photos
+
+ps aux lgrep 2800
+
+ps auxf         //gives tree version of ps
 
 
-
-
+sudo umount /mnt/Photos
