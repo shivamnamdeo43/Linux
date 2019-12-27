@@ -1,0 +1,12 @@
+blkid   //lists all the file systems with UUID attached
+
+cat /etc/fstab
+
+
+lsblk     //list all the block devices on your system
+
+
+cd /lib/systemd/system
+
+ls *.mount
+
